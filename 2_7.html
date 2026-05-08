@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="problemas">
+      <div class="contenedor">
+        <h1>Calcular el precio de un viaje</h1>
+        <label for="kilometers">kilometros recorridos:</label>
+        <input type="number" id="kilometers" name="kilometers" /><br />
+        <label for="costPerKilometer">Costo por kilometro recorrido:</label>
+        <input
+          type="number"
+          id="costPerKilometer"
+          name="costPerKilometer"
+        /><br />
+        <button onclick="calcular()">Costo del viaje:</button> <br />
+        <p id="cost"></p>
+        <ul>
+          <li><a href="../index.html">Regresa al inicio 🏠</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/2_7.js" defer></script>
+</html>
